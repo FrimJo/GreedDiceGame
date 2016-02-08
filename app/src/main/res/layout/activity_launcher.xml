@@ -1,0 +1,76 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@color/launcher_background"
+        tools:context="com.fredrikux.greed.views.LauncherActivity"
+        android:orientation="vertical">
+
+        <!--<LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/name_container"
+            android:hint="Player">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/launcher_title"
+                android:id="@+id/title_text"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/name_container"
+                android:layout_alignStart="@+id/name_container"/>
+        </LinearLayout>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Add players"
+            android:id="@+id/title_text"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"/>
+
+        <com.fredrikux.greed.widgets.ExpandableEditTextLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/name_container"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <Button
+        android:minWidth="64dp"
+        android:layout_margin="8dp"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:singleLine="false"
+        android:background="@drawable/button_raised"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE"
+        android:id="@+id/continue_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"/>
+</RelativeLayout>
+

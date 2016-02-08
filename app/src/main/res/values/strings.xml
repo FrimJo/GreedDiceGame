@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Greed a Dice Game</string>
+    <string name="title_activity_launcher">Players</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_board">Board</string>
+    <string name="launcher_title">Players</string>
+    <string name="player_label_text">Current player</string>
+    <string name="score_label_text">Score</string>
+    <string name="saved_label_text">Total score</string>
+    <string name="title_activity_victory">Victory</string>
+</resources>

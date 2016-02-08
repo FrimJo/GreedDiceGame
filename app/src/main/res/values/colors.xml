@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_background">#4CAF50</color> <!-- 500 -->
+    <color name="accent">#0091EA</color>
+    <color name="primary">#4CAF50</color> <!-- 500 -->
+    <color name="background">#99388E3C</color> <!-- 700 -->
+    <color name="statusBar">#388E3C</color> <!-- 700 -->
+    <color name="white">#FFF</color>
+    <color name="hint">#30ffffff</color>
+</resources>
